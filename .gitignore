@@ -1,0 +1,14 @@
+.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.env
+**/node_modules/
+**/dist/
+**/*.tsbuildinfo
+storage/*
+!storage/.gitkeep
+!storage/models/
+storage/models/*
+!storage/models/.gitkeep
+*.db*
+*.log
