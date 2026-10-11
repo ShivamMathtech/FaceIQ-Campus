@@ -1,0 +1,53 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "opencv": "4.11.0",
+  "cpu": "x86_64",
+  "logical_cpus": 9,
+  "frames": 80,
+  "input": {
+    "kind": "synthetic non-face noise",
+    "width": 640,
+    "height": 480
+  },
+  "detected_faces_per_frame": [
+    0
+  ],
+  "detection": {
+    "wall_seconds": 0.737,
+    "median_latency_ms": 9.089,
+    "p95_latency_ms": 9.848,
+    "processed_fps": 108.58,
+    "process_cpu_percent": 187.87,
+    "memory_measurement": "resource maximum RSS; growth is change in process high-water mark",
+    "rss_peak_mib": 178.12,
+    "rss_growth_mib": 0.0
+  },
+  "sface_synthetic_crop": {
+    "median_latency_ms": 12.31,
+    "p95_latency_ms": 13.384
+  },
+  "cosine_matching": {
+    "30": {
+      "median_ms": 0.018,
+      "p95_ms": 0.03
+    },
+    "100": {
+      "median_ms": 0.059,
+      "p95_ms": 0.092
+    },
+    "500": {
+      "median_ms": 0.316,
+      "p95_ms": 0.402
+    },
+    "1000": {
+      "median_ms": 0.656,
+      "p95_ms": 0.916
+    }
+  },
+  "limitations": [
+    "Unthrottled local CPU microbenchmark; not end-to-end webcam FPS.",
+    "Synthetic inputs do not establish recognition accuracy, FAR, FRR, liveness or Windows performance.",
+    "Process CPU percent may exceed 100% when more than one core is used."
+  ]
+}

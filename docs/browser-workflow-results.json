@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "steps": [
+    "login",
+    "student registration",
+    "faculty creation",
+    "course creation",
+    "enrollment",
+    "assignment",
+    "session schedule",
+    "start",
+    "manual correction",
+    "WebSocket snapshot",
+    "finalize",
+    "CSV export",
+    "analytics",
+    "audit",
+    "responsive dashboard",
+    "logout"
+  ],
+  "console_errors": []
+}
